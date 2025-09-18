@@ -44,24 +44,12 @@ my-first-react-app/
 
 ---
 
-## 4. First Project: Counter App 🚀
+## 4. First Project: Hello React 🚀
 
 Edit `src/App.jsx`:
 ```jsx
-import { useState } from "react";
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>React Counter 🚀</h1>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>+ Add</button>
-      <button onClick={() => setCount(count - 1)}>- Subtract</button>
-      <button onClick={() => setCount(0)}>Reset</button>
-    </div>
-  );
+  return <h1>Hello React 🚀</h1>;
 }
 
 export default App;
@@ -75,7 +63,7 @@ Start the development server:
 npm run dev
 ```
 - Open the link in your terminal (usually `http://localhost:5173`)  
-- You’ll see a **Counter App** with Add, Subtract, and Reset buttons 🎉  
+- You’ll see **Hello React 🚀** on the screen 🎉  
 
 ---
 
