@@ -7,4 +7,4 @@ A collection of beginner-friendly React resources, including my study notes, set
 ## 📒 Notes
 - [React Basics](./notes/react-basics.md)
 - [React Setup](./notes/react-setup-with-example.md)
-- [React Local Deployment](./notes/react-deploy-local.md)
+
